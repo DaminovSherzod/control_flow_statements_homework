@@ -27,7 +27,9 @@ def main(a,b,c):
         x += 1
     if c<0:
         y += 1
-    return x, y
-            
+    if x>y:
+        return "there are a lot of positive numbers"
+    else:
+        return "there are a lot of negative numbers"        
 
 print(main(3,2,-3)) 
