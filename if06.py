@@ -13,4 +13,21 @@ def main(a,b,c):
     Returns:
         string: string with the result
     """
-    return
+    x = 0
+    y = 0
+    if a>0:
+        x += 1
+    if a<0:
+        y += 1
+    if b>0:
+        x += 1
+    if b<0:
+        y += 1
+    if c>0:
+        x += 1
+    if c<0:
+        y += 1
+    return x, y
+            
+
+print(main(3,2,-3)) 
